@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * Inform CTools plugin system about the location of a directory 
+ * that should be searched.
+ */
+function adyax_test_ctools_plugin_directory($module, $plugin_type){
+
+  if ($plugin_type == 'content_types' || $plugin_type == 'styles') {
+    return 'plugins/' . $plugin_type;
+  }
+
+}

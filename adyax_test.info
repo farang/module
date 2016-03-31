@@ -1,0 +1,6 @@
+name = Adyax test
+description = "Test task for Adyax"
+package = Adyax
+core = 7.x
+
+dependencies[] = panels
